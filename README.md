@@ -1,4 +1,4 @@
- 🌗 DevLinks – Página de Links com Dark/Light Mode
+ 🌗 Link-Sociais – Página de Links com Dark/Light Mode
 
 Projeto desenvolvido em **HTML, CSS e JavaScript puro**, com foco em estudo de fundamentos de front-end, manipulação de DOM e alternância de tema (Dark / Light Mode).
 
