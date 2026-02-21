@@ -81,8 +81,14 @@ Quando a classe `.light` é adicionada ao `<html>`, os valores são sobrescritos
 }
 ```
 
+## PREVIEW 
+- LIGHT
+![Tema Ligth](assets/Tema_Linght.png)
 
-![Tema Ligth](./assets/para/Tema_Linght.png)
+
+
+- DARK
+![Tema Ligth](assets/Tema_dark.png)
 
 
 
