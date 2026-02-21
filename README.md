@@ -82,6 +82,10 @@ Quando a classe `.light` é adicionada ao `<html>`, os valores são sobrescritos
 ```
 
 
+![Tema Ligth](./assets/para/Tema_Linght.png)
+
+
+
 
 ### 2️⃣ Alternância via JavaScript
 
