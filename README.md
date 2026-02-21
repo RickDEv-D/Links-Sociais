@@ -20,7 +20,7 @@ O **DevLinks** é uma página simples de links pessoais (estilo Linktree), onde 
 
 O projeto utiliza **variáveis CSS**, manipulação de classes no `<html>` e troca dinâmica de imagens via JavaScript.
 
-
+---
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -38,6 +38,8 @@ O projeto utiliza **variáveis CSS**, manipulação de classes no `<html>` e tro
   * Alteração dinâmica de atributos
 * **Ionicons**
 * **Google Fonts (Inter)**
+
+---
 
 📂 Estrutura do Projeto
 ```
@@ -59,7 +61,7 @@ Estudo/
 ```
 
 
-
+---
  🎨 Funcionamento do Tema (Dark / Light)
 
 O projeto utiliza uma abordagem moderna baseada em:
@@ -85,7 +87,7 @@ Quando a classe `.light` é adicionada ao `<html>`, os valores são sobrescritos
   --swith-bg-url: url(/assets/Sun.svg);
 }
 ```
-
+---
 ## PREVIEW 
 - LIGHT
 ![Tema Ligth](assets/Tema_Linght.png)
@@ -97,7 +99,7 @@ Quando a classe `.light` é adicionada ao `<html>`, os valores são sobrescritos
 
 
 
-
+---
 ### 2️⃣ Alternância via JavaScript
 
 No `script.js`:
@@ -116,7 +118,7 @@ function ToggleMode(){
    }
 }
 ```
-
+---
 ✔ O script:
 
 * Alterna a classe `light`
@@ -124,7 +126,7 @@ function ToggleMode(){
 * Atualiza automaticamente cores e background
 
 
-
+---
 ## 🧠 Conceitos Trabalhados
 
 * Manipulação do DOM
@@ -136,7 +138,7 @@ function ToggleMode(){
 * Estrutura responsiva básica
 
 
-
+---
 ## 📱 Responsividade
 
 * Layout centralizado com `max-width: 360px`
@@ -154,7 +156,7 @@ function ToggleMode(){
 * Transformar em componente reutilizável
 * Implementar versão com React ou Next.js
 * Adicionar painel administrativo para edição de links
-
+---
 
 ## ▶ Como Executar
 
@@ -168,7 +170,7 @@ git clone https://github.com/seu-usuario/devlinks.git
 
 Ou utilize extensão **Live Server** no VSCode.
 
-
+---
 
 ## 💡 Objetivo do Projeto
 
@@ -179,7 +181,7 @@ Este projeto foi desenvolvido com foco em:
 * Treinar manipulação de classes
 * Trabalhar com variáveis CSS
 * Melhorar organização de código
-
+---
 
 
 ## 👨‍💻 Autor
