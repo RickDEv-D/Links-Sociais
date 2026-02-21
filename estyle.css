@@ -106,14 +106,17 @@ button{
     border-radius: 50%;
     background: white var(--swith-bg-url) no-repeat center;
     cursor: pointer;
-    transition:  background 0.6s ease-in-out;
+    animation: slide-out 0.3s;
+}
+
+#swith button:hover{
+
+    outline: 8px solid var(--highlight-color);
 }
 
 .light #swith button{
 
-    right: 0;
-    left: initial;
-    transition:  background 0.6s ease-in-out;
+   animation: slide-in 0.4s forwards;
 }
 
 /*Links*/
@@ -201,6 +204,32 @@ footer{
     .light{
 
         --bg-url: url(/assets/bg-mobile-light.jpg);
+    }
+    
+}
+
+
+@keyframes slide-in{
+
+    from{
+
+        left: 0
+    }
+    to{
+        left: 50%;
+    }
+}
+
+@keyframes slide-out {
+
+    from{
+
+        left: 50%;
+    }
+
+    to{
+
+        left: 0;
     }
     
 }
